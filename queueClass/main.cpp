@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::cout << "Queue Class v1.0.0\n\n";
+	std::cout << "Queue Class v1.0.1\n\n";
 
 	dNode* list = nullptr;
 	int result;
@@ -26,7 +26,7 @@ int main()
 		std::cout << "List is empty.\n";
 	}
 	/// test code here: ////////////////////////////////////////
-
+	
 	std::cout << "result: " << result << "\n\n";
 	////////////////////////////////////////////////////////////
 	result = q.size(list, nodeCount);
